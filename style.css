@@ -12,36 +12,40 @@ Text Domain: dgita-child
 Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
 */
 .header01 {
-    position:fixed;
-    background-color: rgba(240, 240, 240, 0.5);
-    padding: 5px 0px 5px;
-    }
-    .pageBanner {
-    height:0px;	
-    }
-    .singleBlog {
-        padding: 1px 0 1px; 
-    }
- 
+  position:fixed;
+  background-color: rgba(240, 240, 240, 0.5);
+  padding:5px 0px 5px;	
+  }
+  .pageBanner {
+  height:0px;	
+  }
+  .singleBlog {
+      padding: 1px 0 1px; 
+  }
+   
   p#actuales {
-    left:35%;
-    color:#ffff
-  } 
- a#botonaccion01{
-  background-color: #fd85046e;
-  color:#ffff;
-  border-style: solid;
-  border-width: 1px 1px 1px 1px;
-  border-color: #FD8304;
-  padding: 21px 85px 21px 85px;
-  margin: 0 auto;
- }
- a#botonaccion01:hover{
- background-color: #0201018A;  
- color:#FD8304; 
- }
-
-
+      margin: auto!important;
+      color:#ffff
+    } 
+   div.boton{
+     width:100%;
+     text-align: center;
+     margin: 0 auto!important;
+     }
+   a.botonx{
+    background-color: #fd85046e;
+    color:#ffff;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FD8304;
+    padding: 20px 83px 20px 83px;
+    margin: auto!important;
+     }
+   a.botonx:hover{
+   background-color: #0201018A;  
+   color:#FD8304; 
+   }
+  
    /* #453D368F
    #0201018A
    rgba(176, 176, 176, 0.85)
